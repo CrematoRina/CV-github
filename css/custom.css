@@ -1,7 +1,20 @@
-h1, h3 {
+h1, h3, p {
     text-align: center;
     color:#fff;
-}  
+} 
+p{
+    font-size: 16px;
+}
+.naglasi{
+    font-weight: bold;
+    color:rgb(246, 253, 150);
+} 
+a{
+    color:rgb(246, 253, 150);
+}
+h3 {
+    text-align: center;
+}
 body{
     background-image:url("../images/h.jpg");
     background-repeat: no-repeat;
