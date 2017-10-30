@@ -1,0 +1,45 @@
+h1, h3 {
+    text-align: center;
+    color:#fff;
+}  
+body{
+    background-image:url("../images/h.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;background-position: 50% 50%;
+}
+.lp {
+    padding-bottom: 30px;
+}
+section{
+    padding-bottom: 50px;
+}
+table, tr {
+    border: none;
+    border-collapse: collapse;
+    background-color:transparent;
+    padding-top:8px;
+    padding-bottom:8px;
+    color:rgb(255, 253, 253);
+    text-align:left;
+    width:100%;
+    max-width:100%;
+    margin-bottom:20px;
+}
+td{
+    border: none;
+    border-collapse: collapse;
+    background-color:transparent;
+    padding-top:8px;
+    padding-bottom:8px;
+    color:rgb(255, 255, 255);
+    text-align:left;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+.centr{
+    text-align: center;
+}
+
