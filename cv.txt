@@ -1,1 +1,1 @@
-echo CV
+My CV web page
