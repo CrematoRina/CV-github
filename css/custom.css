@@ -1,9 +1,18 @@
-h1, h3, p {
+h1, h2, p {
     text-align: center;
     color:#fff;
+    font-weight: 700;
+    
 } 
+.overlay{
+    background-color: rgba(31, 31, 31, 0.55);
+}
+.container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 p{
-    font-size: 16px;
+    font-size: 18px;
 }
 .naglasi{
     font-weight: bold;
@@ -16,7 +25,7 @@ h3 {
     text-align: center;
 }
 body{
-    background-image:url("../images/h.jpg");
+    background-image:url("../images/b5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;background-position: 50% 50%;
@@ -24,8 +33,18 @@ body{
 .lp {
     padding-bottom: 30px;
 }
-section{
-    padding-bottom: 50px;
+
+.edu{
+    background-image:url("../images/books.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;background-position: 50% 50%;
+}
+.work{
+    background-image:url("../images/work.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;background-position: 50% 50%;
 }
 table, tr {
     border: none;
