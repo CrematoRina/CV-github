@@ -25,85 +25,85 @@
     <body>
         <h1>CURRICULUM VITAE</h1>
         <section>
-            <div class="container">
+            <div class="overlay container">
                 <div class="row">
                     <div class="lp col-md-12">
-                    
-                    <h2>
-                        <span>
+
+                        <h2>
+                            <span>
                             <i class="fa fa-user"></i>
                         </span>
-                        <?php echo $lang['ABOUT'] ?>
-                    </h2>
+                            <?php echo $lang['ABOUT'] ?>
+                        </h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-8">
 
-                    <table>
-                        <tr>
-                            <td>
-                                <span>
+                        <table>
+                            <tr>
+                                <td>
+                                    <span>
                                     <i class="fa fa-male"></i>
                                 </span>
-                                <?php echo $lang['NAME'] ?>
-                            </td>
-                            <td>Nikola Stevanović</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span>
+                                    <?php echo $lang['NAME'] ?>
+                                </td>
+                                <td>Nikola Stevanović</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>
                                     <i class="fa fa-address-book"></i>
                                 </span>
-                                <?php echo $lang['ADDRESS'] ?>
-                            </td>
-                            <td>Ratka Pavlovića 107,</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>18400 Prokuplje</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span>
+                                    <?php echo $lang['ADDRESS'] ?>
+                                </td>
+                                <td>Ratka Pavlovića 107,</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>18400 Prokuplje</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>
                                     <i class="fa fa-mobile fa-2x"></i>
                                 </span>
-                                <?php echo $lang['PHONE'] ?>
-                            </td>
-                            <td>+381 (0)64 / 112 45 48</td>
-                        </tr>
-                        <tr>
+                                    <?php echo $lang['PHONE'] ?>
+                                </td>
+                                <td>+381 (0)64 / 112 45 48</td>
+                            </tr>
+                            <tr>
 
-                            <td>
-                                <span>
+                                <td>
+                                    <span>
                                     <i class="fa fa-envelope"></i>
                                 </span> E-mail:</td>
-                            <td>
-                                <a href="mailto:nikola.rina@elfak.rs">nikola.rina@elfak.rs</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td>
-                                <a href="mailto:nikolarock@hotmail.com">nikolarock@hotmail.com</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <span>
+                                <td>
+                                    <a href="mailto:nikola.rina@elfak.rs">nikola.rina@elfak.rs</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <a href="mailto:nikolarock@hotmail.com">nikolarock@hotmail.com</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span>
                                     <i class="fa fa-calendar"></i>
                                 </span>
-                                <?php echo $lang['DATE'] ?>
-                            </td>
-                            <td>03.01.1993. Prokuplje</td>
-                        </tr>
+                                    <?php echo $lang['DATE'] ?>
+                                </td>
+                                <td>03.01.1993. Prokuplje</td>
+                            </tr>
 
-                    </table>
+                        </table>
+                    </div>
+                    <div class="centr col-md-4">
+                        <img class="profile" src="images/copy.jpg" alt="View">
+                    </div>
                 </div>
-                <div class="centr col-md-4">
-                    <img class="profile" src="images/copy.jpg" alt="View">
-                </div>
-            </div>
             </div>
         </section>
 

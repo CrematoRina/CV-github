@@ -55,7 +55,10 @@ The highest interest are directed to computers and programming,love working on t
 </p>
 <br/>
 <p>
-Programming skills: HTML, JavaScript, CSS, PHP, MySQL, C, C++, C#, Java…
+Programming skills:
+</p>
+<p>
+HTML, JavaScript, CSS, PHP, MySQL, C, C++, C#, Java…
 </p>';
 
 

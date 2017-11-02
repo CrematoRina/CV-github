@@ -56,7 +56,10 @@ da putujem i upoznajem ljude. Komunikativan sam i volim da radim sa ljudima.
 </p>
 <br/>
 <p>
-Programski jezici: HTML, JavaScript, CSS, PHP, MySQL, C, C++, C#, Java …
+Programski jezici:
+</p>
+<p>
+HTML, JavaScript, CSS, PHP, MySQL, C, C++, C#, Java …
 </p>';
 
 

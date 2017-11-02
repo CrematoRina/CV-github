@@ -1,87 +1,108 @@
-h1, h2, p {
+h1,
+h2,
+p {
     text-align: center;
-    color:#fff;
+    color: #fff;
     font-weight: 700;
-    
-} 
-.profile{
+
+}
+
+.profile {
     border-radius: 50% 50%;
 }
-.overlay{
+
+.overlay {
     background-color: rgba(31, 31, 31, 0.55);
 }
-.container{
+
+.container {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-p{
+
+p {
     font-size: 18px;
 }
-.naglasi{
+
+.naglasi {
     font-weight: bold;
-    color:rgb(246, 253, 150);
-} 
-a{
-    color:rgb(246, 253, 150);
+    color: rgb(246, 253, 150);
 }
+
+a {
+    color: rgb(246, 253, 150);
+}
+
 h3 {
     text-align: center;
 }
-body{
-    background-image:url("../images/bk.jpg");
+
+body {
+    background-image: url("../images/bk.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;background-position: 50% 50%;
+    background-size: cover;
+    background-position: 50% 50%;
 }
+
 .lp {
     padding-bottom: 30px;
 }
 
-.edu{
-    background-image:url("../images/books.jpg");
+.edu {
+    background-image: url("../images/books.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;background-position: 50% 50%;
+    background-size: cover;
+    background-position: 50% 50%;
 }
-.work{
-    background-image:url("../images/work.jpg");
+
+.work {
+    background-image: url("../images/work.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;background-position: 50% 50%;
+    background-size: cover;
+    background-position: 50% 50%;
 }
-.personal{
-    background-image:url("../images/b5.jpg");
+
+.personal {
+    background-image: url("../images/b5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;background-position: 50% 50%;
+    background-size: cover;
+    background-position: 50% 50%;
 }
-table, tr {
+
+table,
+tr {
     border: none;
     border-collapse: collapse;
-    background-color:transparent;
-    padding-top:8px;
-    padding-bottom:8px;
-    color:rgb(255, 253, 253);
-    text-align:left;
-    width:100%;
-    max-width:100%;
-    margin-bottom:20px;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(255, 253, 253);
+    text-align: left;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
 }
-td{
+
+td {
     border: none;
     border-collapse: collapse;
-    background-color:transparent;
-    padding-top:8px;
-    padding-bottom:8px;
-    color:rgb(255, 255, 255);
-    text-align:left;
+    background-color: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    text-align: left;
 }
-img{
+
+img {
     width: 200px;
     height: 250px;
     filter: contrast(140%);
 }
-.centr{
+
+.centr {
     text-align: center;
 }
-
