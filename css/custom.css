@@ -4,6 +4,9 @@ h1, h2, p {
     font-weight: 700;
     
 } 
+.profile{
+    border-radius: 50% 50%;
+}
 .overlay{
     background-color: rgba(31, 31, 31, 0.55);
 }
@@ -25,7 +28,7 @@ h3 {
     text-align: center;
 }
 body{
-    background-image:url("../images/b5.jpg");
+    background-image:url("../images/bk.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;background-position: 50% 50%;
@@ -42,6 +45,12 @@ body{
 }
 .work{
     background-image:url("../images/work.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;background-position: 50% 50%;
+}
+.personal{
+    background-image:url("../images/b5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;background-position: 50% 50%;
@@ -70,6 +79,7 @@ td{
 img{
     width: 200px;
     height: 250px;
+    filter: contrast(140%);
 }
 .centr{
     text-align: center;
