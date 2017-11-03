@@ -18,6 +18,7 @@
         <link href="css/custom.css" rel="stylesheet">
         <link href="css/flag-icon.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="shortcut icon" href="#"> <!-- neka favicon.ico greska -->
     </head>
     <header>
@@ -150,7 +151,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInLeft">
                             <?php echo $lang['WORK_P1'] ?>
                         </div>
 
@@ -256,6 +257,8 @@
         </section>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom.js"></script>
     </body>
 
     </html>
