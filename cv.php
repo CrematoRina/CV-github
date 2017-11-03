@@ -10,7 +10,7 @@
 
     <head>
         <title>
-            CURRICULUM VITAE
+            Portfolio
         </title>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,8 @@
         <link href="css/flag-icon.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
         <link rel="stylesheet" href="css/animate.css">
-        <link rel="shortcut icon" href="#"> <!-- neka favicon.ico greska -->
+        <link rel="shortcut icon" href="#">
+        <!-- neka favicon.ico greska -->
     </head>
     <header>
         <a class="flag-icon flag-icon-gb" href="cv.php?lang=english"></a>
@@ -27,85 +28,93 @@
     </header>
 
     <body>
-        <h1>CURRICULUM VITAE</h1>
-        <section>
-            <div class="overlay container">
-                <div class="row">
-                    <div class="lp col-md-12">
+        <h1>Portfolio</h1>
+        <section class="minh">
+            <div class="container">
+                <div class="main_overlay">
+                    <div class="row">
+                        <div class="lp col-md-12">
 
-                        <h2>
-                            <span>
+                            <h2>
+                                <span>
                             <i class="fa fa-user"></i>
                         </span>
-                            <?php echo $lang['ABOUT'] ?>
-                        </h2>
+                                <?php echo $lang['ABOUT'] ?>
+                            </h2>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-8">
 
-                        <table>
-                            <tr>
-                                <td>
-                                    <span>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <span>
                                     <i class="fa fa-male"></i>
                                 </span>
-                                    <?php echo $lang['NAME'] ?>
-                                </td>
-                                <td>Nikola Stevanović</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span>
+                                        <?php echo $lang['NAME'] ?>
+                                    </td>
+                                    <td>Nikola Stevanović</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>
                                     <i class="fa fa-address-book"></i>
                                 </span>
-                                    <?php echo $lang['ADDRESS'] ?>
-                                </td>
-                                <td>Ratka Pavlovića 107,</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>18400 Prokuplje</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span>
+                                        <?php echo $lang['ADDRESS'] ?>
+                                    </td>
+                                    <td>Ratka Pavlovića 107,</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>18400 Prokuplje</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>
                                     <i class="fa fa-mobile fa-2x"></i>
                                 </span>
-                                    <?php echo $lang['PHONE'] ?>
-                                </td>
-                                <td>+381 (0)64 / 112 45 48</td>
-                            </tr>
-                            <tr>
+                                        <?php echo $lang['PHONE'] ?>
+                                    </td>
+                                    <td>+381 (0)64 / 112 45 48</td>
+                                </tr>
+                                <tr>
 
-                                <td>
-                                    <span>
+                                    <td>
+                                        <span>
                                     <i class="fa fa-envelope"></i>
                                 </span> E-mail:</td>
-                                <td>
-                                    <a href="mailto:nikola.rina@elfak.rs">nikola.rina@elfak.rs</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>
-                                    <a href="mailto:nikolarock@hotmail.com">nikolarock@hotmail.com</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span>
+                                    <td>
+                                        <a href="mailto:nikola.rina@elfak.rs">nikola.rina@elfak.rs</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <a href="mailto:nikolarock@hotmail.com">nikolarock@hotmail.com</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>
                                     <i class="fa fa-calendar"></i>
                                 </span>
-                                    <?php echo $lang['DATE'] ?>
-                                </td>
-                                <td>03.01.1993. Prokuplje</td>
-                            </tr>
+                                        <?php echo $lang['DATE'] ?>
+                                    </td>
+                                    <td>03.01.1993. Prokuplje</td>
+                                </tr>
 
-                        </table>
+                            </table>
+                        </div>
+                        <div class="centr col-md-4">
+                            <img class="profile" src="images/copy1.jpg" alt="View">
+                        </div>
                     </div>
-                    <div class="centr col-md-4">
-                        <img class="profile" src="images/copy.jpg" alt="View">
+                    <div class="row">
+                        <div class="lp col-md-12">
+                            <a href="https://www.facebook.com/nikola.rina?ref=bookmarks"><i class="f fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/nikola-stevanovic-b4993414b/"><i class="l fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -151,15 +160,15 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 wow fadeInLeft">
+                        <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.5s">
                             <?php echo $lang['WORK_P1'] ?>
                         </div>
 
                         <div class="col-md-4">
                             <!-- slicica neka -->
-                            <p><img class="wb" src="images/ProjectIcon.png" alt="View"></p>
+                            <p><img class="wb wow pulse" data-wow-delay="1s" src="images/ProjectIcon.png" alt="View"></p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInRight" data-wow-delay="0.5s">
                             <?php echo $lang['WORK_P2'] ?>
                         </div>
                     </div>
@@ -186,43 +195,43 @@
                         <?php echo $lang['PERSONAL_P'] ?>
                     </div>
                     <div class="row">
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown">
                             <span><i class="iconsp devicon-html5-plain"></i><br/> HTML</span>
                         </p>
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="0.2s">
                             <span><i class="iconsp devicon-javascript-plain"></i><br/> JavaScript</span>
                         </p>
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="0.4s">
                             <span><i class="iconsp devicon-css3-plain"></i><br/> CSS</span>
                         </p>
 
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="0.6s">
                             <span><i class="iconsp devicon-php-plain"></i><br/> PHP</span>
                         </p>
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="0.8s">
                             <span><i class="iconsp devicon-mysql-plain"></i><br/> MySQL</span>
                         </p>
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="1.0s">
                             <span><i class="iconsp devicon-c-plain"></i><br/> C</span>
                         </p>
 
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="1.2s">
                             <span><i class="iconsp devicon-cplusplus-plain"></i><br/> C++</span>
                         </p>
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="1.4s">
                             <span><i class="iconsp devicon-csharp-plain"></i><br/> C#</span>
                         </p>
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="1.6s">
                             <span><i class="iconsp devicon-java-plain"></i><br/> Java</span>
                         </p>
 
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="1.8s">
                             <span><i class="iconsp fa fa-file"></i><br/> Empty</span>
                         </p>
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="2.0s">
                             <span><i class="iconsp fa fa-file"></i><br/> Empty</span>
                         </p>
-                        <p class="col-md-1">
+                        <p class="col-md-1 wow fadeInDown" data-wow-delay="2.2s">
                             <span><i class="iconsp fa fa-file"></i><br/> Empty</span>
                         </p>
                     </div>
@@ -233,7 +242,7 @@
 
         <section>
             <div class="overlay">
-                <div class="container">
+                <div class="container wow fadeInLeftBig" data-wow-duration="3s">
                     <div class="row">
 
                         <div class="lp col-md-12">
