@@ -56,52 +56,6 @@ The highest interest are directed to computers and programming,love working on t
 <br/>
 <p>
 Programming skills:
-</p>
-<p>
-<div class="row">
-                        <p class="col-md-1">
-                            <span><i class="iconsp devicon-html5-plain"></i></br> HTML</span>
-                        </p>
-
-                        <p class="col-md-1">
-                            <span><i class="iconsp devicon-javascript-plain"></i></br> JavaScript</span>
-                        </p>
-                        <p class="col-md-1">
-                            <span><i class="iconsp devicon-css3-plain"></i></br> CSS</span>
-                        </p>
-            
-                        <p class="col-md-1">
-                           <span><i class="iconsp devicon-php-plain"></i></br> PHP</span>
-                        </p>
-                        <p class="col-md-1">
-                            <span><i class="iconsp devicon-mysql-plain"></i></br> MySQL</span>
-                        </p>
-                        <p class="col-md-1">
-                            <span><i class="iconsp devicon-c-plain"></i></br> C</span>
-                        </p>
-                        
-                        <p class="col-md-1">
-                           <span><i class="iconsp devicon-cplusplus-plain"></i></br> C++</span>
-                        </p>
-                        <p class="col-md-1">
-                            <span><i class="iconsp devicon-csharp-plain"></i></br> C#</span>
-                        </p>
-                        <p class="col-md-1">
-                            <span><i class="iconsp devicon-java-plain"></i></br> Java</span>
-                        </p>
-                        
-                        <p class="col-md-1">
-                           <span><i class="iconsp fa fa-file"></i></br> Empty</span>
-                        </p>
-                        <p class="col-md-1">
-                            <span><i class="iconsp fa fa-file"></i></br> Empty</span>
-                        </p>
-                        <p class="col-md-1">
-                            <span><i class="iconsp fa fa-file"></i></br> Empty</span>
-                        </p>
-
-                    </div>
-
 </p>';
 
 

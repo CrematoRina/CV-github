@@ -57,12 +57,7 @@ da putujem i upoznajem ljude. Komunikativan sam i volim da radim sa ljudima.
 <br/>
 <p>
 Programski jezici:
-</p>
-<p>
-HTML, JavaScript, CSS, PHP, MySQL, C, C++, C#, Java …
 </p>';
-
-
 $lang['OTHER'] ='Ostalo';
 $lang['OTHER_P'] ='- Vozačka dozvola (B kategorija od 2013.)';
 ?>

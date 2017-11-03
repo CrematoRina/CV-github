@@ -16,11 +16,13 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="css/custom.css" rel="stylesheet">
+        <link href="css/flag-icon.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link rel="shortcut icon" href="#"> <!-- neka favicon.ico greska -->
     </head>
     <header>
-        <a href="cv.php?lang=english">EN</a>
-        <a href="cv.php?lang=serbian">RS</a>
+        <a class="flag-icon flag-icon-gb" href="cv.php?lang=english"></a>
+        <a class="flag-icon flag-icon-rs" href="cv.php?lang=serbian"></a>
     </header>
 
     <body>
@@ -154,6 +156,7 @@
 
                         <div class="col-md-4">
                             <!-- slicica neka -->
+                            <p><img class="wb" src="images/ProjectIcon.png" alt="View"></p>
                         </div>
                         <div class="col-md-4">
                             <?php echo $lang['WORK_P2'] ?>
@@ -180,6 +183,47 @@
                     </div>
                     <div class="row">
                         <?php echo $lang['PERSONAL_P'] ?>
+                    </div>
+                    <div class="row">
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-html5-plain"></i><br/> HTML</span>
+                        </p>
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-javascript-plain"></i><br/> JavaScript</span>
+                        </p>
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-css3-plain"></i><br/> CSS</span>
+                        </p>
+
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-php-plain"></i><br/> PHP</span>
+                        </p>
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-mysql-plain"></i><br/> MySQL</span>
+                        </p>
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-c-plain"></i><br/> C</span>
+                        </p>
+
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-cplusplus-plain"></i><br/> C++</span>
+                        </p>
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-csharp-plain"></i><br/> C#</span>
+                        </p>
+                        <p class="col-md-1">
+                            <span><i class="iconsp devicon-java-plain"></i><br/> Java</span>
+                        </p>
+
+                        <p class="col-md-1">
+                            <span><i class="iconsp fa fa-file"></i><br/> Empty</span>
+                        </p>
+                        <p class="col-md-1">
+                            <span><i class="iconsp fa fa-file"></i><br/> Empty</span>
+                        </p>
+                        <p class="col-md-1">
+                            <span><i class="iconsp fa fa-file"></i><br/> Empty</span>
+                        </p>
                     </div>
                 </div>
             </div>
