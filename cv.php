@@ -170,16 +170,28 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.5s">
+                        <div class="col-md-4">
+
+                            <p class="wow fadeInLeft" data-wow-delay="0.5s" data-wow-duration="2s">
                             <?php echo $lang['WORK_P1'] ?>
+                            </p>
+                            <p class="wow fadeInLeft" data-wow-delay="1.0s" data-wow-duration="2s">
+                            <?php echo $lang['WORK_P2'] ?>
+                            </p>
+                            <?php echo $lang['WORK_P3'] ?>
                         </div>
 
                         <div class="col-md-4">
                             <!-- slicica neka -->
-                            <p><img class="wb wow pulse" data-wow-delay="1s" src="images/ProjectIcon.png" alt="View"></p>
+                            <p><img class="wb wow pulse" src="images/ProjectIcon.png" alt="View"></p>
                         </div>
-                        <div class="col-md-4 wow fadeInRight" data-wow-delay="0.5s">
-                            <?php echo $lang['WORK_P2'] ?>
+                        <div class="col-md-4">
+                            <p class="wow fadeInRight" data-wow-delay="2.0s" data-wow-duration="2s">
+                            <?php echo $lang['WORK_P4'] ?>
+                            </p>
+                            <p class="wow fadeInRight" data-wow-delay="2.5s" data-wow-duration="2s">
+                            <?php echo $lang['WORK_P5'] ?>
+                            </p><br/>
                         </div>
                     </div>
                 </div>

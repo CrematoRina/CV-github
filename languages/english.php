@@ -31,22 +31,17 @@ $lang['WORK'] ='Work experience';
 $lang['WORK_P'] ='<p>
 Team projects at university:
 </p>';
-$lang['WORK_P1'] ='<p>
-- Course software engineering - work on project "Elfak Projects Portal" -Web portal.
-</p>
-<p>
-- Course data base systems - Work on project "Internet provider" in .NET 
-and Course advanced databases – Work on projects in nosql databases:
-redis – " To do list ", Neo4J - " Presidential elections ", MongoDB - "Phonebook "
+$lang['WORK_P1'] ='Course software engineering - work on project "Elfak Projects Portal" - Web portal.';
 
+$lang['WORK_P2']= 'Course data base systems - Work on project "Internet provider" in .NET'; 
+
+$lang['WORK_P3']= '<p class="wow fadeInLeft" data-wow-delay="1.5s" data-wow-duration="2s"> Course advanced databases – Work on projects in nosql databases:
+<ul class="wow fadeInLeft" data-wow-delay="1.5s" data-wow-duration="2s"><li>redis – " To do list "</li> <li>Neo4J - " Presidential elections "</li><li>MongoDB - "Phonebook "</li>
 </p>';
-$lang['WORK_P2'] ='<p>
-- Course mobile systems and services – Work on project "Parking service" - Android application.
-</p>
-<p>
-- Course Multimedia computer systems – Work on project "Picture" in C# – MVC application
-</p>
-<br/>';
+
+$lang['WORK_P4'] ='Course mobile systems and services – Work on project "Parking service" - Android application.';
+$lang['WORK_P5'] ='Course Multimedia computer systems – Work on project "Picture" in C# – MVC application';
+
 
 $lang['PERSONAL'] ='Personal qualities and skills';
 

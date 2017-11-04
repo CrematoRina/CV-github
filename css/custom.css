@@ -213,3 +213,9 @@ img {
 a:focus {
     color: #9cd62a;
 }
+
+ul{
+    list-style-type: none;
+    color: white;
+    font-weight: 700;
+}

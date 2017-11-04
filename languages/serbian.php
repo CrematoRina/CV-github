@@ -31,22 +31,23 @@ $lang['WORK'] ='Radno iskustvo';
 $lang['WORK_P'] ='<p>
 Timski projekti na fakultetu:
 </p>';
-$lang['WORK_P1'] ='<p>
-- Rad na projektu iz predmeta softversko inženjerstva “ Elfak Projects Portal” -Web portal.
-</p>
-<p>
-- Rad na projektu iz predmeta sistemi baza podataka "Internet provajder" u .NET-u i na projektima iz predmeta napredne baze
-podataka: redis – " To do list ", Neo4J - " Glasački listić ", MongoDB - "Imenik "
 
+$lang['WORK_P1'] ='Rad na projektu iz predmeta softversko inženjerstva “ Elfak Projects Portal” - Web portal.';
+
+
+$lang['WORK_P2'] = 'Rad na projektu iz predmeta sistemi baza podataka "Internet provajder" u .NET-u';
+
+
+$lang['WORK_P3'] ='<p class="wow fadeInLeft" data-wow-delay="1.5s" data-wow-duration="2s">Rad na projektima iz predmeta napredne baze podataka: 
+<ul class="wow fadeInLeft" data-wow-delay="1.5s" data-wow-duration="2s"><li>redis – " To do list "</li> <li>Neo4J - " Glasački listić "</li><li>MongoDB - "Imenik "</li>
 </p>';
-$lang['WORK_P2'] ='<p>
-<p>
-- Rad na projektu iz predmeta mobilni sistemi i servisi “Parking servis” – Android aplikacija.
-</p>
-<p>
-- Rad na projektu iz predmeta multimedijalni računarski sistemi "Slika" u C# – MVC aplikacija
-</p>
-<br/>';
+
+
+$lang['WORK_P4'] ='Rad na projektu iz predmeta mobilni sistemi i servisi “Parking servis” – Android aplikacija';
+
+
+$lang['WORK_P5'] ='Rad na projektu iz predmeta multimedijalni računarski sistemi "Slika" u C# – MVC aplikacija';
+
 
 $lang['PERSONAL'] ='Lični kvaliteti';
 
