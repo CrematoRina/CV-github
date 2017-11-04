@@ -23,14 +23,14 @@
         <!-- neka favicon.ico greska -->
     </head>
     <header>
-      <div class="row">
-       <div class="l col-md-6">
-        <a class="flag-icon flag-icon-gb" href="cv.php?lang=english"></a>
-        <a class="flag-icon flag-icon-rs" href="cv.php?lang=serbian"></a>
-       </div>
-        <div class="r col-md-6">
-                    <button type="button" class="btn">Download PDF</button>
-        </div>
+        <div class="row">
+            <div class="l col-md-6">
+                <a class="flag-icon flag-icon-gb" href="cv.php?lang=english"></a>
+                <a class="flag-icon flag-icon-rs" href="cv.php?lang=serbian"></a>
+            </div>
+            <div class="r col-md-6">
+                <button type="button" class="btn btn-default">Download PDF</button>
+            </div>
         </div>
     </header>
 
@@ -40,7 +40,7 @@
             <div class="container">
                 <div class="main_overlay">
                     <div class="row">
-                        <div class="lp col-md-12">
+                        <div class="lp col-md-12 wow fadeInDown" data-wow-duration="1.5s">
 
                             <h2>
                                 <span>
@@ -52,8 +52,11 @@
                     </div>
                     <div class="row">
                         <div class="col-md-8">
-                    <div class="drop">Nikola Stevanović<span class="caret">  </span><br/><div class="small">Web developer</div></div>
-                            <table  class="dropdown-content">
+                            <div class="drop wow fadeInLeft" data-wow-duration="1.5s">Nikola Stevanović<span class="caret"></span>
+                                <div class="small wow fadeInLeft" data-wow-delay="0.5s">Web developer</div>
+                            </div>
+
+                            <table class="dropdown-content">
                                 <tr>
                                     <td>
                                         <span>
@@ -113,12 +116,12 @@
 
                             </table>
                         </div>
-                        <div class="centr col-md-4">
+                        <div class="centr col-md-4 wow fadeInRight" data-wow-duration="1.5s">
                             <img class="profile" src="images/copy1.jpg" alt="View">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="lp col-md-12">
+                        <div class="lp col-md-12 wow fadeInUp" data-wow-duration="1.5s">
                             <a href="https://www.facebook.com/nikola.rina?ref=bookmarks"><i class="f fa fa-facebook-square" aria-hidden="true"></i></a>
                             <a href="https://www.linkedin.com/in/nikola-stevanovic-b4993414b/"><i class="l fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
@@ -273,7 +276,7 @@
         </section>
         <div class="footer">
             <p>Copyright &copy; 2017</p>
-            </div>
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/wow.min.js"></script>

@@ -171,27 +171,45 @@ img {
     color: #9cd62a;
     font-size: 50px;
 }
-.footer{
 
-    border-top: 1px solid #9cd62a; 
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid #9cd62a;
     padding-top: 15px;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
 }
-.l{
+
+.l {
     text-align: left;
     padding-left: 30px;
 }
 
-.r{
+.r {
     text-align: right;
     padding-right: 30px;
 }
 
-.btn{
-       background-color: #9cd62a;
+.btn {
+    background-color: #9cd62a;
     margin-top: 5px;
     color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: 337ab7;
+    color: white;
+}
+
+.btn-default:focus,
+.btn-default:active {
+    background-color: #9cd62a;
+    color: white;
+}
+
+a:focus {
+    color: #9cd62a;
 }
