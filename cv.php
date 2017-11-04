@@ -23,8 +23,15 @@
         <!-- neka favicon.ico greska -->
     </head>
     <header>
+      <div class="row">
+       <div class="l col-md-6">
         <a class="flag-icon flag-icon-gb" href="cv.php?lang=english"></a>
         <a class="flag-icon flag-icon-rs" href="cv.php?lang=serbian"></a>
+       </div>
+        <div class="r col-md-6">
+                    <button type="button" class="btn">Download PDF</button>
+        </div>
+        </div>
     </header>
 
     <body>
@@ -45,8 +52,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-8">
-
-                            <table>
+                    <div class="drop">Nikola Stevanović<span class="caret">  </span><br/><div class="small">Web developer</div></div>
+                            <table  class="dropdown-content">
                                 <tr>
                                     <td>
                                         <span>
@@ -264,6 +271,9 @@
                 </div>
             </div>
         </section>
+        <div class="footer">
+            <p>Copyright &copy; 2017</p>
+            </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/wow.min.js"></script>
